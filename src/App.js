@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Intro from '../../landing_page/src/components/Intro';
 import Designed from './components/Designed';
+import StateOfArt from './components/StateOfArt';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <div className="content">
           <Intro />
           <Designed />
+          <StateOfArt />
         </div>
         <Switch>
           <Route></Route>
