@@ -1,10 +1,11 @@
 import Navbar from './Navbar';
-import { ReactComponent as BgIntro } from '../assets/bg-pattern-intro.svg'
+import BgIntro from '../assets/bg-pattern-intro.svg'
 
 const Intro = () => {
 	return (
 		<div className="intro">
 			<Navbar />
+			<img src={BgIntro} alt="background into" className="bg--image" />
 			<div className="intro--info">
 				<h1>A modern publishing platform</h1>
 				<p>Grow your audience and build your online brand</p>
@@ -13,7 +14,6 @@ const Intro = () => {
 					<button className="learn_more">Learn More</button>
 				</div>
 			</div>
-			{/* <BgIntro className="bg--image" /> */}
 		</div>
 	);
 }

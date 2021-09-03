@@ -3,7 +3,7 @@ import Intro from '../../landing_page/src/components/Intro';
 import Designed from './components/Designed';
 import StateOfArt from './components/StateOfArt';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div className="App">
