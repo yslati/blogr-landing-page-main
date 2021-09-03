@@ -4,7 +4,7 @@ import Phones from '../assets/illustration-phones.svg'
 
 const StateOfArt = () => {
 	return (
-		<Container>
+		<Container fluid>
 			<Row className="state">
 				<Col className="state_svg">
 					<img src={CircleBg} alt="circle" className="state_CircleBg" />

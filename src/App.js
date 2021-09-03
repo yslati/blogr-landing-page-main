@@ -1,6 +1,9 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Intro from '../../landing_page/src/components/Intro';
 import Designed from './components/Designed';
+import Details from './components/Details';
+import Footer from './components/Footer';
 import StateOfArt from './components/StateOfArt';
 
 const App = () => {
@@ -11,6 +14,8 @@ const App = () => {
           <Intro />
           <Designed />
           <StateOfArt />
+          <Details />
+          <Footer />
         </div>
         <Switch>
           <Route></Route>

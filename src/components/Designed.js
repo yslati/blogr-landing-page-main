@@ -6,7 +6,7 @@ const Designed = () => {
 		<Container fluid className="designed">
 			<h2>Designed for the future</h2>
 			<Row className="designed--info">
-				<Col className="designed--info_1">
+				<Col xs="6" className="designed--info_1">
 					<h3 className="designed--info__title">Introducing an extensible editor</h3>
 					<p className="designed--info__des">
 						Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
@@ -20,7 +20,7 @@ const Designed = () => {
 						by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
 						</p>
 				</Col>
-				<Col className="designed--info_2">
+				<Col xs="3" className="designed--info_2">
 					<img src={Svg} alt="icon" className="illustration-editor-desktop" />
 				</Col>
 			</Row>
