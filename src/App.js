@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Intro from '../../landing_page/src/components/Intro';
+import Intro from './components/Intro';
 import Designed from './components/Designed';
 import Details from './components/Details';
 import Footer from './components/Footer';

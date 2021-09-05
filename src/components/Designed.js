@@ -1,12 +1,12 @@
 import Svg from '../assets/illustration-editor-desktop.svg'
-import { Container, Row, Col } from 'reactstrap';
+
 
 const Designed = () => {
 	return (
-		<Container fluid className="designed">
+		<div fluid className="designed">
 			<h2>Designed for the future</h2>
-			<Row className="designed--info">
-				<Col xs="6" className="designed--info_1">
+			<div className="designed--info flex md:flex-row">
+				<div className="designed--info_1">
 					<h3 className="designed--info__title">Introducing an extensible editor</h3>
 					<p className="designed--info__des">
 						Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
@@ -19,12 +19,12 @@ const Designed = () => {
 						Flexible content management enables users to easily move through posts. Increase the usability of your blog
 						by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
 						</p>
-				</Col>
-				<Col xs="3" className="designed--info_2">
+				</div>
+				<div className="designed--info_2">
 					<img src={Svg} alt="icon" className="illustration-editor-desktop" />
-				</Col>
-			</Row>
-		</Container>
+				</div>
+			</div>
+		</div>
 	);
 }
 
